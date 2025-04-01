@@ -1,8 +1,11 @@
+"use client";
 import { LayoutGrid, Heart, Share2, ShoppingCart, Shield, Truck, RotateCcw } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 
 export default function ProductDetail() {
+
+
   const product = {
     name: 'GravityPods Pro',
     category: 'EarBuds',

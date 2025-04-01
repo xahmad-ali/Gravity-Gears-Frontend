@@ -1,5 +1,5 @@
 "use client";
-import { Menu } from "lucide-react";
+import { Menu, LayoutGrid } from "lucide-react";
 
 interface HeaderProps {
   setIsSidebarOpen: (isOpen: boolean) => void;
@@ -14,9 +14,12 @@ const Header: React.FC<HeaderProps> = ({ setIsSidebarOpen }) => {
             onClick={() => setIsSidebarOpen(true)}
             className="hover:bg-gray-800 transition-colors rounded-2xl"
           >
-            <Menu className="w-12 h-6 " />
+            <Menu className="w-18 h-9 " />
           </button>
-          <h2 className="text-3xl font-bold px-10 text-red-500">GravityGears</h2>
+          <div className="flex items-center justify-center"> 
+          <LayoutGrid className="text-red-500" size={28} />
+          <h2 className="text-3xl font-bold pxr-6 mx-1 text-red-500">GravityGears</h2>
+          </div>
         </div>
       </div>
     </header>

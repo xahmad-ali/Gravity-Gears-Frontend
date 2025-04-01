@@ -8,7 +8,7 @@ const navItems = [
   { label: "Wishlist", icon: Heart, path: "/wishlist" },
   { label: "Profile", icon: User, path: "/profile" },
   { label: "My Cart", icon: ShoppingCart, path: "/cart" },
-  { label: "My Orders", icon: ShoppingBag, path: "/orders" },
+  { label: "My Orders", icon: ShoppingBag, path: "/order" },
   { label: "Help", icon: HelpCircle, path: "/help" }
 ];
 
